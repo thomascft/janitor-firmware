@@ -1,0 +1,9 @@
+file_format: "1"
+id: janitor
+name: Janitor
+type: shield
+url: https://github.com/thomascft/janitor
+requires: [pro_micro]
+siblings:
+  - janitor_left  
+  - janitor_right

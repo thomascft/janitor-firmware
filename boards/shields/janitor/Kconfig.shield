@@ -1,0 +1,4 @@
+config SHIELD_JANITOR_LEFT
+	def_bool $(shields_list_contains,janitor_left)
+config SHIELD_JANITOR_RIGHT
+	def_bool $(shields_list_contains,janitor_right)
