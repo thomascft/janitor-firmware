@@ -4,6 +4,9 @@ name: Janitor
 type: shield
 url: https://github.com/thomascft/janitor
 requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - display
 siblings:
   - janitor_left  
   - janitor_right
