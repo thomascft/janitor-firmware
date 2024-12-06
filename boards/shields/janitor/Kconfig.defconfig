@@ -13,15 +13,14 @@ if SHIELD_JANITOR_LEFT || SHIELD_JANITOR_RIGHT
 config ZMK_SPLIT
 	default y
 
-if ZMK_DISPLAY
+config ZMK_DISPLAY
+	default y
 
 config I2C
 	default y
 
 config SSD1306
 	default y
-
-endif # ZMK_DISPLAY
 
 if LVGL
 
