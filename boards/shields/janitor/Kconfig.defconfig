@@ -13,6 +13,9 @@ if SHIELD_JANITOR_LEFT || SHIELD_JANITOR_RIGHT
 config ZMK_SPLIT
 	default y
 
+config ZMK_BLE_EXPERIMENTAL_FEATURES
+	default y
+
 config ZMK_DISPLAY
 	default y
 
